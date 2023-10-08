@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #353a40;
+}
+
+.imagen img {
+    width: 10rem;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 80px;
+}
+
+.titulo h1 {
+    font-size: 25px;
+    color: white;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+nav {
+    background-color: #353a40;
+    margin-right: 80px;
+}
+
+#blanco {
+    color: white;
+    font-size: 23px;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.gris {
+    color: grey;
+    text-decoration: none;
+    font-size: 23px;
+    margin-left: 30px;
+}
+
+.gris:hover {
+    color: #198754;
+}
+
+.tituloOradores {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tituloOradores h3 {
+    font-size: 15px;
+    font-weight: 400;
+    padding: 10px;
+}
+
+.card {
+    margin: 0px 40px 0px 40px;
+}
+
+.javascript {
+    background-color: #ffc107;
+    padding: 1px;
+    border-radius: 5px;
+    width: 80px;
+    border: none;
+    font-weight: 500;
+    color: #1f2224;
+}
+
+.react {
+    background-color: #0dcaf0;
+    padding: 1px;
+    border-radius: 5px;
+    width: 50px;
+    border: none;
+    font-weight: 600;
+    color: #f8f9fa;
+}
+
+.negocios {
+    background-color: #6c757d;
+    padding: 1px;
+    border-radius: 5px;
+    width: 80px;
+    border: none;
+    font-weight: 500;
+    color: #f8f9fa;
+}
+
+.start {
+    background-color: #dc3545;
+    padding: 1px;
+    border-radius: 5px;
+    width: 70px;
+    border: none;
+    font-weight: 600;
+    color: #f8f9fa;
+}
+
+.botones {
+    padding: 0px 20px;
+}
+
+h5 {
+    padding: 5px 20px;
+}
+
+.caja {
+    display: flex;
+    flex-direction: row;
+}
+
+.grey {
+    background-color: #353a40;
+}
+
+.grey h5 {
+    color: #f8f9fa;
+    font-size: 30px;
+}
+
+.textoBlanco {
+    color: #f8f9fa;
+    font-size: 16px;
+}
+
+.formulario {
+    max-width: 1000px;
+    width: 90%;
+    margin: auto;
+    padding: 40px;
+}
+
+.formDatos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.formDatos input {
+    width: 440px;
+    height: 40px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+}
+
+.verdeAmarillo {
+    background-color: #96c93d;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    color: #f8f9fa;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.vinculo {
+    margin-left: 100px;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.pie {
+    background-color: #1e506e;
+}
+
+.pie ul li a {
+    text-decoration: none;
+    color: #f8f9fa;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.pie ul li {
+    display: inline-block;
+    padding: 40px;
+}
+
+.pie ul {
+    margin-bottom: 0;
+}
+
+.titulo p {
+    font-size: 25px;
+}
+
+#carousel img {
+    filter: brightness(0.5)
+}
+
+.tarjeta a {
+    display: inline;
+}
+
+.tarjetaInicial {
+    width: 600px;
+}
+
+ 
+
+
+
+
+
+
+
